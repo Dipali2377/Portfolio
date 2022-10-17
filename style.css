@@ -43,7 +43,7 @@ body {
   overflow-x: hidden;
   padding-left: 35rem;
 }
-/* 
+
 section {
   min-height: 100vh;
   padding: 1rem;
@@ -79,7 +79,7 @@ section {
 
 .heading span {
   color: var(--yellow);
-} */
+}
 
 header {
   position: fixed;
