@@ -42,6 +42,7 @@ body {
   background: #111;
   overflow-x: hidden;
   padding-left: 35rem;
+  color: white;
 }
 
 section {
@@ -132,4 +133,89 @@ header .navbar ul li a {
   color: #fff;
   font-size: 2rem;
   border-radius: 5rem;
+}
+header .navbar ul li a:hover {
+  background: var(--purple);
+}
+
+#menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  display: none;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 15rem;
+}
+.home h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.home h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.home h1 span {
+  color: var(--purple);
+}
+
+.home p {
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+}
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.about .row .info {
+  flex: 11 48rem;
+  padding: 2rem 1rem;
+  padding-left: 6rem;
+}
+.about .row .info h3 {
+  font-size: 2rem;
+  color: var(--purple);
+  padding: 1rem 0;
+  font-weight: normal;
+}
+.about .row .info h3 span {
+  color: #eee;
+  padding: 0.5rem;
+}
+.about .row .counter {
+  flex: 11 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .row .counter .box {
+  width: 20rem;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+.about .row .counter .box span {
+  font-size: 4rem;
+  color: var(--purple);
+}
+.about .row .counter .box h3 {
+  font-size: 2rem;
+  color: #fff;
 }
