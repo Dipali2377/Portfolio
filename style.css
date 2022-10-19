@@ -219,3 +219,48 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: #fff;
 }
+.education .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+.education .box-container .box {
+  width: 20rem;
+  margin: 4rem 1rem;
+  padding: 4rem;
+  border-left: 2rem solid #fff;
+  position: relative;
+}
+.education .box-container .box span {
+  font-size: 1.3rem;
+  color: #fff;
+  background: #222;
+  border-radius: 5rem;
+  padding: 5rem 2.5rem;
+}
+.education .box-container .box h3 {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.education .box-container .box p {
+  font-size: 1.4rem;
+  color: #eee;
+  padding: 1re, 0;
+}
+.education .box-container .box i {
+  position: absolute;
+  line-height: 5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background: var(--purple);
+  top: -1.5rem;
+  left: -2.5rem;
+}
