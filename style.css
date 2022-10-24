@@ -132,7 +132,8 @@ header .navbar ul li a {
   background: #333;
   color: #fff;
   font-size: 2rem;
-  border-radius: 5rem;
+  /* border-radius: 5rem; */
+  border-radius: 5rem 0 5rem 0;
 }
 header .navbar ul li a:hover {
   background: var(--purple);
