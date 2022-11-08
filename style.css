@@ -176,6 +176,14 @@ header .navbar ul li a:hover {
   color: #eee;
   padding: 1rem 0;
 }
+.code {
+  color: lightskyblues;
+}
+/* button .about-btn {
+  border: 1px solid purple;
+  background-color: lightblue;
+  color: #9370db;
+} */
 .about .row {
   display: flex;
   align-items: center;
